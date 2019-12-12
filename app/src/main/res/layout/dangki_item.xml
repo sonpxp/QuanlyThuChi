@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#2baf2b"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Đăng Kí"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/tendn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dk"
+        android:layout_margin="20dp"
+        android:hint="Tên Đăng Nhập" />
+
+    <EditText
+        android:id="@+id/mk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tendn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Mật Khẩu" />
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:background="#66e18f"
+        android:id="@+id/xacnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mk"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:onClick="XacnhanDangki"
+        android:text="Xác Nhận" />
+
+</RelativeLayout>

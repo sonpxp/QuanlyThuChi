@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:id="@+id/ql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/ql"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/dong" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:textStyle="bold"
+        android:text="QLTC"
+        android:textSize="27sp" />
+
+    <EditText
+        android:id="@+id/edtusename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/login"
+        android:hint="Tên Tài Khoản"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textStyle="bold" />
+
+    <EditText
+        android:drawableLeft="@drawable/pas"
+        android:id="@+id/edtmk"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtusename"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_margin="23dp"
+        android:orientation="vertical"
+        android:layout_below="@id/edtmk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:onClick="dangnhap"
+            android:textColor="#247936"
+            android:id="@+id/btntdangnhap"
+            android:layout_width="match_parent"
+            android:background="@drawable/duongvien_goctron"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập" />
+
+    </LinearLayout>
+</RelativeLayout>

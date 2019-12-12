@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="-10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Thêm Khoản Thu"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:background="#247635"
+        android:textColor="#fff"
+        android:gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:text="Danh mục:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+
+            android:id="@+id/spkhoanthu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Nhập khoản thu"
+        android:id="@+id/edtkhoanthu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:hint="Số Tiền"
+        android:inputType="number"
+        android:id="@+id/edtsotien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_weight="3"
+            android:textColor="#000"
+            android:text="ngày: "
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_weight="5"
+            android:id="@+id/tv"
+            android:hint="20/12/2020"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/chon"
+            android:layout_weight="1"
+            android:src="@drawable/lich"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Thêm"
+            android:id="@+id/btnthemkhoanthu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Hủy"
+            android:id="@+id/btnhuykhoanthu"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

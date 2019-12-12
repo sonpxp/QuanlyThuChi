@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/khoanthu"
+        android:icon="@drawable/vao"
+        android:title="Khoản Thu" />
+
+    <item
+        android:id="@+id/khoanchi"
+        android:icon="@drawable/ra"
+        android:title="Khoản chi" />
+
+    <item
+        android:id="@+id/thongke"
+        android:icon="@drawable/tk"
+        android:title="Thống Kê" />
+
+
+    <item android:title=""
+
+        />
+
+
+    <item
+        android:id="@+id/gioithieu"
+        android:icon="@drawable/gt"
+        android:title="Giới thệu" />
+    <item
+        android:id="@+id/caidat"
+        android:icon="@drawable/cd"
+        android:title="Cài đặt" />
+
+    <item
+        android:id="@+id/thoat"
+        android:icon="@drawable/thoat"
+        android:title="Thoát" />
+
+</menu>

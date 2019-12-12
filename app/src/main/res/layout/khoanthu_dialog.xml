@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="2dp"
+    android:layout_marginBottom="3dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dong"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:textSize="22dp"
+            android:textColor="#000"
+            android:id="@+id/tvkt"
+            android:text="Ten:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#ff00"
+                android:layout_marginTop="5dp"
+                android:id="@+id/tvgia"
+                android:text="Tien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:textColor="#ff00"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="VNĐ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000"
+                android:layout_marginTop="5dp"
+                android:text="ngày:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="-13dp"
+                android:textColor="#000"
+                android:id="@+id/tvngaythang"
+                android:text="ngaythang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/ghi"
+        android:src="@drawable/note"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/xoa"
+        android:src="@drawable/xoa"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

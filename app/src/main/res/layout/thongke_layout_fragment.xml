@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9d1d1"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <TextView
+           android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="24dp"
+            android:text="Thống Kê"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:background="#c6bebe"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:text="Các khoản đã thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#247936"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="190dp"
+                android:text="0 đ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:text="Các khoản đã chi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="#f00"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="190dp"
+                android:text="0 đ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                android:text="Xem Theo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/sptk"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:text="Khoản Thu:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000"
+            android:text="Khoản chi:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
